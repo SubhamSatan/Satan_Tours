@@ -10,7 +10,7 @@ function Home() {
             <Section 
             title = "A Journey of a Thousand Miles begins with a Single Step"
             subtitle = "People Dont take Trips, Trips take People "
-            backgroundImg="/Public/images/Pic1.png" />;
+            backgroundImg="images/Pic1.png" />;
             
             
         </Components>

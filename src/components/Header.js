@@ -14,7 +14,7 @@ function Header() {
         <Container>
             <LeftPart>
                 <a>
-                <img src="\images\suitcase.png" alt="" />
+                <img src="images\suitcase.png" alt="" />
                 </a>
                 <p>Satan_Tours</p>
             </LeftPart>
@@ -22,7 +22,7 @@ function Header() {
                 <ul>
                 <li><a href="#" >Home</a></li>
                 <li><a href="#" >Destination</a></li>
-                <li><a href="#" >Shop</a></li>
+                <li><a href="#" >Testimonials</a></li>
                 <li><a href="#" >Blog</a></li>
                 </ul>
             </MiddlePart>
@@ -36,7 +36,7 @@ function Header() {
                 <li><a href="#">SignUp / SignIn</a></li>
                 <li><a href="#">Recomended Destinations</a></li>
                 <li><a href="#">Testimonials</a></li>
-                <li><a href="#">RoadStar</a></li>
+                <li><a href="#">Blogs</a></li>
             </BurgerNav>
             </RightPart>
         </Container>
