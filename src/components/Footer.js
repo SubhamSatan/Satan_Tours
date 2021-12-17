@@ -16,10 +16,10 @@ function Footer() {
           <a href="#services">Recomemded Destinations</a>
         </li>
         <li>
-          <a href="#recommend">Places</a>
+          <a href="#recommend">Testimonials</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">Blog</a>
         </li>
       </ul>
       <ul className="social__links">
