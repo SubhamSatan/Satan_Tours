@@ -14,7 +14,7 @@ function Header() {
         <Container>
             <LeftPart>
                 <a>
-                <img src="images\suitcase.png" alt="" />
+                <img src="/public/images/suitcase.png" alt="" />
                 </a>
                 <p>Satan_Tours</p>
             </LeftPart>

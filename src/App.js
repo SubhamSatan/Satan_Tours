@@ -12,11 +12,11 @@ function App() {
     <Header />
     <Home />
     <Destinations  
-            image1="images/Pic2.png"
-            image2="images/Pic3.png"
-            image3= "images/Pic4.png"
+            image1="/images/Pic2.png"
+            image2="/images/Pic3.png"
+            image3= "/images/Pic4.png"
             />
-    <Testimonials avatarImage='images/avatar.jpeg'/>
+    <Testimonials avatarImage='./public/images/avatar.jpeg'/>
     <Footer />
     </>
   );
