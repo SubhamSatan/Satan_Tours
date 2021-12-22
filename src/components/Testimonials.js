@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import Fade from 'react-reveal/Fade';
+import avatarImage from "../images/avatar.jpeg"
 
-export default function Testimonials( {avatarImage} ) {
+export default function Testimonials( ) {
   return ( 
     <Section id="testimonials">
     <Fade bottom>    
@@ -18,8 +19,8 @@ export default function Testimonials( {avatarImage} ) {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Subham Banerjee</h4>
+              <span>CEO - Subham Solutions</span>
             </div>
           </div>
         </div>
@@ -31,8 +32,8 @@ export default function Testimonials( {avatarImage} ) {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Rishabh Mathur</h4>
+              <span>CEO - Mathur Solutions</span>
             </div>
           </div>
         </div>
@@ -44,8 +45,8 @@ export default function Testimonials( {avatarImage} ) {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>Jineya Dey</h4>
+              <span>CEO - Dey Solutions</span>
             </div>
           </div>
         </div>

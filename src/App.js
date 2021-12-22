@@ -5,6 +5,9 @@ import Home from './components/Home';
 import Testimonials from './components/Testimonials';
 import Destinations from './components/Destinations';
 import Footer from './components/Footer';
+import image1 from "./images/Pic2.png";
+import image2 from "./images/Pic3.png";
+import image3 from "./images/Pic4.png";
 
 function App() {
   return (
@@ -12,11 +15,11 @@ function App() {
     <Header />
     <Home />
     <Destinations  
-            image1="/images/Pic2.png"
-            image2="/images/Pic3.png"
-            image3= "/images/Pic4.png"
+            image1= {image1}
+            image2= {image2}
+            image3= {image3}
             />
-    <Testimonials avatarImage='./public/images/avatar.jpeg'/>
+    <Testimonials/>
     <Footer />
     </>
   );

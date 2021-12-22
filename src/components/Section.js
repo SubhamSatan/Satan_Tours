@@ -1,17 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import Fade from 'react-reveal/Fade';
+import Image from '../images/Pic1.png'
 
 
-function Section( { title , subtitle , backgroundImg }) {
+function Section( { title , subtitle  }) {
     return (
-        <Wrap bgImage={backgroundImg}>
+        <Wrap >
           <Fade bottom>
             <ItemText>
-            <div className="background">
-                 <img src={backgroundImg} alt="" />
-            </div>
-            
               <div className="title">
                 <h1> {title}</h1>
                 <h3> {subtitle}  </h3>
@@ -50,12 +47,11 @@ z-index: -1;
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
- background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) , url('/images/Pic1.png');
+ background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) , url(${Image});
  display: flex;
  flex-direction: column; 
  justify-content:center;  //aligning it vertically 
  align-items: center;  // aligning it horizantally 
- background-image: ${props => `linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) , url("/images/${props.bgImage}")`};
 
 `
 

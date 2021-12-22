@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Image from "../images/Pic1.png"
 
 
 import Section from './Section';
@@ -7,12 +8,7 @@ import Section from './Section';
 function Home() {
     return (
         <Components>
-            <Section 
-            title = "A Journey of a Thousand Miles begins with a Single Step"
-            subtitle = "People Dont take Trips, Trips take People "
-            backgroundImg="https://github.com/SubhamSatan/Satan_Tours/blob/main/public/images/Pic1.png" />;
-            
-            
+            < Section />       
         </Components>
     )
 }

@@ -107,7 +107,7 @@ flex-wrap: wrap;
 `
 
 const Wrap = styled.div`
-padding: 30px;
+padding-top: 50px;
 display:flex;
 flex-direction: column;
 `

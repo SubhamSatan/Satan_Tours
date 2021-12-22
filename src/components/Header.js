@@ -5,6 +5,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import CloseIcon from '@mui/icons-material/Close'
 import MenuIcon from "@mui/icons-material/Menu"
+import Suitcase from "../images/suitcase.png"
 
 function Header() {
   
@@ -14,7 +15,7 @@ function Header() {
         <Container>
             <LeftPart>
                 <a>
-                <img src="/public/images/suitcase.png" alt="" />
+                <img src= {Suitcase} alt="" />
                 </a>
                 <p>Satan_Tours</p>
             </LeftPart>
